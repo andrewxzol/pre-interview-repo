@@ -1,7 +1,7 @@
 services:
 
   app:
-    image: 890828112175.dkr.ecr.eu-central-1.amazonaws.com/devops-practice:${IMAGE_TAG}
+    image: 890828112175.dkr.ecr.eu-central-1.amazonaws.com/devops/practice:${IMAGE_TAG}
     environment:
       - APP_ENV=production
     restart:
